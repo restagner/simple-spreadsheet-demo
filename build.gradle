@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+repositories {
+	mavenCentral()
+	jcenter()
+}
+
+dependencies {
+	compile 'builders.dsl:spreadsheet-builder-poi:1.0'
+	testCompile 'junit:junit:4.12'
+}
