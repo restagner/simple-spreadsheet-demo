@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 
 import static builders.dsl.spreadsheet.api.Keywords.*;
 
-public class SpreadsheetWriter {
+public class SpreadsheetWriterForJava {
 
     public static void main(String... args) throws FileNotFoundException {
         File file = new File("/home/restagner/spreadsheet.xlsx");

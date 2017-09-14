@@ -25,3 +25,8 @@ rerun.txt
 # parallel related folders
 **/parallel_features
 **/parallel_runners
+
+# gradle files
+.gradle
+build
+out
