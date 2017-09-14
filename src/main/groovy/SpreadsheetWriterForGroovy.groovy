@@ -2,7 +2,7 @@ import builders.dsl.spreadsheet.builder.poi.PoiSpreadsheetBuilder
 
 class SpreadsheetWriterForGroovy {
     static void main(String... args) {
-        File file = new File('src/main/resources/spreadsheet.xlsx')
+        File file = new File('out/spreadsheet.xlsx')
 
         PoiSpreadsheetBuilder.create(file).build {
             sheet('Sample') {
