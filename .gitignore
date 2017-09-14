@@ -30,3 +30,6 @@ rerun.txt
 .gradle
 build
 out
+
+# project resource files
+**/resources/spreadsheet.xlsx
