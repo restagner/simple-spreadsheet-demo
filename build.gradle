@@ -11,6 +11,6 @@ dependencies {
 	testCompile 'junit:junit:4.12'
 }
 
-task showMeCache doLast() {
+task showMeCache doLast {
   configurations.compile.each { println it }
 }
