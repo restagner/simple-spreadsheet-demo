@@ -7,7 +7,7 @@ import static builders.dsl.spreadsheet.api.Keywords.*;
 public class SpreadsheetWriterForJava {
 
     public static void main(String... args) throws FileNotFoundException {
-        File file = new File("/home/restagner/spreadsheet.xlsx");
+        File file = new File("out/spreadsheet.xlsx");
 
 		PoiSpreadsheetBuilder.create(file).build(w -> {                                 
 			w.sheet("Sample", s -> {                                                    
