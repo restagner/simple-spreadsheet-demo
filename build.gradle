@@ -1,4 +1,4 @@
-apply plugin: 'java'
+apply plugin: 'groovy'
 
 repositories {
 	mavenCentral()
@@ -7,5 +7,6 @@ repositories {
 
 dependencies {
 	compile 'builders.dsl:spreadsheet-builder-poi:1.0'
+	compile 'builders.dsl:spreadsheet-builder-groovy:1.0'
 	testCompile 'junit:junit:4.12'
 }
