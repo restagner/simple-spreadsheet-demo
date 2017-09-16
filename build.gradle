@@ -11,6 +11,14 @@ dependencies {
 	testCompile 'junit:junit:4.12'
 }
 
+jar {
+	manifest {
+		attributes("Manifest-Version": '1.0',
+			"Main-Class": 'main.SpreadsheetWriterForGroovy',
+			"Class-Path": configurations.runtime.files.collect { it.name }.join(' '))
+	}
+}
+
 task showMeCache doLast {
   configurations.compile.each { println it }
 }
